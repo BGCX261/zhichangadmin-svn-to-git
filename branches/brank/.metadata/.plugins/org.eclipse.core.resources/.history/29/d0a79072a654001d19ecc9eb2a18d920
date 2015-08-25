@@ -1,0 +1,17 @@
+package com.lpx.computer;
+
+public class Show implements IOEuip {
+
+	@Override
+	public boolean in(int[] signal) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	@Override
+	public int[] out() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

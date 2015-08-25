@@ -1,0 +1,37 @@
+package com.lpx.computer;
+
+public class Show implements IOEuip {
+	private int resolution = 60 * 20;
+
+	@Override
+	public boolean in(int[] signal) {
+		// TODO Auto-generated method stub
+		System.out.println(signal == null);
+		return signal != null;
+	}
+
+	@Override
+	public int[] out() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public void display(int[] signal) {
+		if (this.in(signal)) {
+			for (int i = 0; i < this.resolution; i++) {
+				if (signal[i] == 1) {
+					System.out.println("*");
+				} else {
+					System.out.println(" ");
+				}
+				if ((i + 1) % 60 == 0) {
+					System.out.println("|");
+				}
+			}
+			for (int i = 0; i < 60; i++) {
+				System.out.print("-");
+			}
+		}
+	}
+
+}

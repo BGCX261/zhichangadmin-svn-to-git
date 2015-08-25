@@ -1,0 +1,6 @@
+package com.lpx.computer;
+
+public class Computer {
+   private Mian m=new Mian();
+   private Show s=new Show();
+}

@@ -1,0 +1,11 @@
+package com.lpdx.animal;
+
+public class Cat extends Animal implements IAnimal {
+
+	@Override
+	public void call(IAnimal ianimal) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

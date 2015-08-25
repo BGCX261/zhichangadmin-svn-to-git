@@ -1,0 +1,11 @@
+package com.lpdx.animal;
+
+public class Dog extends Animal implements IAnimal {
+
+	@Override
+	public void call(IAnimal ianimal) {
+		Dog dog = (Dog) ianimal;
+		System.out.println("Œ“ «" + dog.getName() + "ÕÙÕÙ");
+	}
+
+}

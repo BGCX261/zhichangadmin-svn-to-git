@@ -1,0 +1,14 @@
+package com.lpx.computer;
+
+public class Computer {
+	private Mian m = new Mian();
+	private Show s = new Show();
+
+	public void show(int path) {
+		int[] signal = m.load(path, path + 1200);
+//		for (int v : signal) {
+//			System.out.println(v);
+//		}
+		s.display(signal);
+	}
+}

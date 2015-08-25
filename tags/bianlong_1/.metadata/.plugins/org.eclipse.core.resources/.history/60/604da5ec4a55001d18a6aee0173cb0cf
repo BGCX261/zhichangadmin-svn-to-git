@@ -1,0 +1,10 @@
+package com.lpdx.animal;
+
+public class Cat extends Animal implements IAnimal {
+
+	@Override
+	public void call(IAnimal ianimal) {
+		System.out.println("ΞÒΚΗ" + this.getName() + "ίχίχ");
+	}
+
+}

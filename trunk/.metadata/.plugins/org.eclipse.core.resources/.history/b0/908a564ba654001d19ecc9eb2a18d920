@@ -1,0 +1,5 @@
+
+public interface IOEuip {
+   public boolean in(int[],signal);
+	   
+}

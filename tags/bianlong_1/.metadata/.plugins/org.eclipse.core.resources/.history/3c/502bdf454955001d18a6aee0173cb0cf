@@ -1,0 +1,8 @@
+package com.lpdx.animal;
+
+public class Animal {
+	private S
+    public void run(){
+    	System.out.println("Œ“ «"+);
+    }
+}

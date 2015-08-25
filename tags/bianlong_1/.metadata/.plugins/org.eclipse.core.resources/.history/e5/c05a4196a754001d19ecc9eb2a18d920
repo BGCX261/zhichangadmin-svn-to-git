@@ -1,0 +1,9 @@
+package com.lpx.computer;
+
+public class Computer {
+   private Mian m=new Mian();
+   private Show s=new Show();
+   public void show(){
+	   int[] signal=m.load(1, 1+1200);
+   }
+}
